@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+.grid-item{
+    border: 1px solid black;
+}
+.chessboard{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.white{
+    height: 100px;
+    width: 100px;
+    background-color: #f0d9b5;
+}
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: #b58863;
+}
+
+.emogi-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    height: 100vh;
+}
+.item{
+    font-size: 5rem;  
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cowboy{
+    background-color: #b58863;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.astronaut{
+    background-color: #ea8839;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.book{
+    background-color: #ea8839;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

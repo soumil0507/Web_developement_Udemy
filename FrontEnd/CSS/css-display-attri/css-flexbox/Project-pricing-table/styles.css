@@ -1,0 +1,58 @@
+.item{
+    flex: 1;
+    max-width: 22rem;
+    /* height: 20rem; */
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 5%;
+    background-color: #f8f4ec;
+    padding: 20px;
+}
+li{
+    list-style: none;
+    margin: 1rem;
+    font-family: "Sono", sans-serif;
+    font-weight: bolder;
+}
+.pricing-type{
+    font-size: 1.3rem;
+}
+.pricing-price{
+    font-size: 2.3rem;
+}
+.pricing-text{
+    font-size: 1rem;
+}
+.pricing-button{
+    height:2rem;
+    border-radius: 10%;
+    background-color: orange;
+    border: 2px solid rgb(238, 146, 33);
+    color: white;
+}
+
+@media  (min-width: 600px){
+
+    .pricing-table{
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;   
+        height: 100vh;     
+    }
+    
+}
+
+@media  (max-width: 600px){
+
+    .pricing-table{
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;   
+        height: 100%; 
+    }
+   
+}

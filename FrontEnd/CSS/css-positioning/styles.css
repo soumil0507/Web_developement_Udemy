@@ -1,0 +1,21 @@
+.box-div-red {
+    background-color: red;
+    height: 4rem;
+    width: 25rem;
+    position: relative;
+}
+.box-div-purple{
+    background-color: darkblue;
+    height: 7rem;
+    width: 25rem;
+    position: relative;
+}
+.white-circle{
+    background-color: white;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    top: 1rem;
+    left: 10rem;
+    border-radius: 100%;
+}
